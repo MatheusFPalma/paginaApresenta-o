@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+}
+aside{
+    float: left;
+    background: rgb(17, 17, 17);
+    height: 100vh;
+    width: 20%;
+}
+aside div{
+    position: absolute;
+    bottom: 250px;
+    left: 0;
+    width: 300px;
+    text-align: left;
+    font-size: 1.5rem;
+}
+aside p{
+    margin-bottom: 10px;
+    transform: translate(25%, -600%);
+    font-family: "Futura Std Condensed Light";
+    font-weight: bold;
+}
+main{
+    float: right;
+    background: rgb(60, 60, 60);
+    height: 100vh;
+    width: 80%;
+    color: rgb(25, 24, 24);
+    text-align: left;
+}
+main h1{    
+    position: absolute;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+    transform: translate(0, 60%);
+
+}
+main h2{
+    position: absolute;
+    font-size: 2rem;
+    margin-left: 10px;
+    transform: translate(0, 300%);
+}
+main div{
+    position: absolute;
+    transform: translate(0, 1260%);
+    margin-left: 10px;
+}
+main svg{
+    position: relative;
+    transform: translate(50%, 550%);
+    display: inline;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+main ul{
+    font-size: 2rem;
+    position: relative;
+    transform: translate(5% ,90%);
+}
+main section{
+    font-size: 1.5rem;
+    position: relative;
+    transform: translate(1% ,90%);
+}
+#objetivos{
+    position: relative;
+    transform: translate(1% ,90%);
+}
+aside img{
+    height: 150px;
+    width: 150px;   
+    border-radius: 50%;
+    border-image: 2px;
+    border-color: gray;
+    position: absolute;
+    left: 5%;
+    bottom: 75%;
+}
+
+a:link {
+    text-decoration: none;
+    color: seashell;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: #39ff14
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+#font1{
+    color: seashell;
+}
